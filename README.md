@@ -13,6 +13,8 @@ In order to forecast the price of diamonds using all of the features in the data
 
 Next, we check whether the multiple linear regression model is valid or not by running diagnostic checks with 4 assumptions to satisfy, which are linearity, nearly normal residuals, constant variability, and independence of residuals. In backwards feature selection, we eliminate features that are not statistically significant by looking that features whose p-value is above 0.05 since statistical significance is indicated by a p-value of less than 0.05. We create a new OLS model and data frame that stores the actual price of diamonds, the predicted price of diamonds, and its residuals as well as to validate whether the model satisfies the previous 4 assumptions in our Reduced Model Overview and Reduced Model Diagnostic Checks. This is similar to what we did in the Full Model Overview and Full Model Diagnostic Checks, but with the insignificant features eliminated.
 
+This report is done in a group of 4 as an assignment and received a ***High Distinction*** from the course's tutor.
+
 ## Dataset Features
 * Carat = Weight of diamond
 * Cut = Quality of the cut
